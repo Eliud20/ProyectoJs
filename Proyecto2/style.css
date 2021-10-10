@@ -1,0 +1,51 @@
+body{
+    background-color: aliceblue;
+}
+
+.head{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(17, 17, 56);
+    margin-bottom: 12px;
+}
+
+#bien{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    font-size: 26px;
+    margin-left: 35px;
+}
+
+#inicio{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: white;
+    size: 25px;
+    padding: 9px;
+    margin: 15px;
+    width: 25%;
+    background-color: rgba(59, 112, 156, 0.719);
+}
+
+.flex{
+    display: flex;
+    padding: 15px;
+    border: 3px solid green;
+    border-radius: 20px;
+}
+
+.button{
+    border-radius: 12px;
+    size: 40px;
+    font-size: 25px;
+    padding: 5px;
+    background-color: rgb(212, 232, 240);
+    border-color: rgb(60, 60, 104);
+}
+
+.button:hover{
+    opacity: .4;
+}
+
